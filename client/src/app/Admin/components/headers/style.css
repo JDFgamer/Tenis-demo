@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+    max-width: 1443px
+}
+
+.me-auto{
+    display: flex;
+    align-items: center;
+}
