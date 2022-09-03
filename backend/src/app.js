@@ -6,7 +6,6 @@ const routes = require('./router/index')
 
 const app = express();
 
-app.set('port', process.env.PORT || 3001);
 
 app.use(morgan('dev'));
 app.use(cors());

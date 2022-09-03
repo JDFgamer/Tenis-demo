@@ -11,9 +11,10 @@ const main = async()=>{
       } catch (error) {
         console.error('Unable to connect to the database:', error);
       }
+  const PORT = process.env.PORT || 3001 
     //iniciamos nuestro servidor
-    await app.listen(app.get('port'));
-    console.log('server listen port', app.get('port'))
+    await app.listen(PORT);
+    console.log('server listen port' + PORT)
 }
 
 main();
